@@ -24,7 +24,7 @@
             <span class="burger-line"></span>
           </button>
         </div>
-        <a aria-label="Логотип сайта" href="" class="header__logo">
+        <a aria-label="Логотип сайта" href="#" class="header__logo">
           <img src="img/logo.png" alt="Evclid" class="header__image">
         </a>
 
@@ -38,30 +38,36 @@
             </button>
             <ul class="nav__list list-reset flex">
               <li class="nav__item nav__item_1">
-                <a href="#" class="nav__link">
+                <a href="#about" class="nav__link">
                   О нас
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="projects.html" class="nav__link">
                   Проекты
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#work" class="nav__link">
                   Этапы
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="tyestimonials.html" class="nav__link">
                   Отзывы
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#faq" class="nav__link">
+                  Часто задаваемые вопросы
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#conactForm" class="nav__link">
                   Контакты
                 </a>
               </li>
+
             </ul>
           </nav>
           <button aria-label="Бугер-меню" class="btn-reset search-btn">
@@ -105,7 +111,7 @@
     </div>
   </header>
   <main class="main">
-    <section class="evclid-section section-hero slider main__slider">
+    <section id="hero" class="evclid-section section-hero slider main__slider">
       <div class="container">
         <div class="slider__info">
 
@@ -133,7 +139,7 @@
       </div><!--/container-->
 
     </section>
-    <section class="evclid-section section-about">
+    <section id="about" class="evclid-section section-about">
       <div class="container">
         <h2 class="section-title section-about__title">О&nbsp;нас</h2>
         <p class="section-about__descr">
@@ -178,7 +184,7 @@
         </div>
       </div><!--Container-->
     </section>
-    <section class="evclid-section section-work" id="work">
+    <section id="work" class="evclid-section section-work">
       <div class="container">
         <h2 class="section-title section-work__title">Как мы работаем</h2>
         <nav aria-label="Меню раздела" class="section-work__nav">
@@ -302,7 +308,7 @@
 
       </div>
     </section>
-    <section class="evclid-section section-faq">
+    <section id="faq" class="evclid-section section-faq">
       <div class="container">
         <h2 class="section-title section-faq__title">Часто задаваемые вопросы</h2>
         <ul aria-label="Список Вопросы и ответы" class="section-faq__list list-reset accordion-list">
@@ -435,7 +441,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="container footer__container">
       <div class="footer__wrap flex">
         <div class="footer__block footer__block_left flex">
@@ -521,7 +527,7 @@
         </div>
         <div class="footer__block footer__block_center flex">
           <h2 class="form-title">Оставить заявку</h2>
-          <form aria-label="Форма обратной связи" action="https://jsonplaceholder.typicode.com/posts" method="post" class="footer-form flex">
+          <form id="conactForm" aria-label="Форма обратной связи" action="https://jsonplaceholder.typicode.com/posts" method="post" class="footer-form flex">
             <div class="footer-form__top flex">
               <input aria-label="Введите ваше имя" type="text" name="name" id="name" placeholder="Фамилия, имя и отчество*" required
                 class="footer-form__element">
